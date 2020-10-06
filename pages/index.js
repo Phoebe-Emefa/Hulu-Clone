@@ -3,7 +3,8 @@ import React from 'react'
 import Banner from '../Components/Home/Banner'
 import Trial from '../Components/Home/Trial'
 import Trend from '../Components/Home/Trend'
-import Plan from '../Components/Home/Plan'
+import Plan from '../Components/Home/Table'
+import Table from '../Components/Home/Table'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <Trial />
       <Banner />
       <Trend />
-      <Plan />
+      <Table />
     </Box>
   )
 }
